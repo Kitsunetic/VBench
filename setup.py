@@ -47,12 +47,12 @@ def fetch_requirements():
 # check_torch_version()
 setup(
     name="vbench",
-    version="0.1.5",
+    version="0.1.6",
     description="Video generation benchmark",
     long_description=fetch_readme(),
     long_description_content_type="text/markdown",
     project_urls={
-        "Source": "https://github.com/Vchitect/VBench",
+        "Source": "https://github.com/Kitsunetic/VBench",
     },
     entry_points={"console_scripts": ["vbench=vbench.cli.vbench:main"]},
     # install_requires=install_requires,
